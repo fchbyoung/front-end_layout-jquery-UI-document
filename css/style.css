@@ -1,0 +1,170 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*css header*/
+.shopping-mall {
+    margin-left: 50px;
+    float: left;
+}
+
+.shopping-mall h1 {
+    font-size: 68px;
+    font-family: Arial;
+    color: white;
+    font-style: italic;
+}
+
+.shopping-mall h5 {
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+}
+
+.header-right {
+    font-size: 20px;
+    color: white;
+    float: left;
+    margin-left: 700px;
+}
+
+.header-title {
+    border: 1px solid black;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    background-color: orange;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+/*css nav*/
+.navbar-inverse {
+    border: 2px solid #C2C2C2;
+}
+
+.navbar-nav span{
+    color: white;
+}
+
+.main {
+    background: white;
+}
+
+/*css footer*/
+.row .offset-by-three {
+    margin-left: 25%;
+}
+
+.six .row .six {
+    width: 50%;
+}
+
+.columns {
+    float: left;
+    min-height: 1px;
+    padding: 0 25px;
+    position: relative;
+}
+
+
+.books {
+    margin-left: 50px;
+}
+
+#legal {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.simple {
+    background: #060607;
+}
+
+/*css content-right*/
+
+.entry-title {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.hr-content {
+    border: 1px solid gray;
+    margin: .75em 0;
+    width: 70%;
+}
+
+.desc {
+    font-size: 16px;
+    padding: 5px 15px 0;
+    color: #666;
+    font-style: italic;
+}
+
+#draggable {
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+}
+
+.ui-widget-content {
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    color: #333333;
+}
+
+.demo-frame {
+    width: 70%;
+    height: 420px;
+}
+
+.demo-list {
+    float: right;
+    width: 25%;
+}
+
+.demo-list li {
+    border-bottom: 1px solid #ccc;
+}
+
+.demo-list .active {
+    background: #ffffff;
+}
+
+.demo-list a {
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    color: #3f3f3f;
+    text-shadow: 1px 1px #ffffff;
+    padding: 2% 3%;
+}
+
+.demo-list ul li {
+    list-style-type: none;
+}
+
+.demo-list h2 {
+    margin-left: 45px;
+    border-bottom: 1px solid #ccc;
+}
+
+iframe {
+    border: 1px solid #bfbfbf;
+    padding: 1px;
+}
+
+
+
+
+
+/*container*/
+.container-fluid {
+    background-color: #b24926;
+}
+
