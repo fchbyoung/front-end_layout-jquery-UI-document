@@ -7,6 +7,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
+    <script>
+        $(document).ready(function() {
+            $("#draggable").draggable();
+            });
+    </script>
+
 </head>
 <body>
     <div class="container-fluid">
@@ -67,76 +73,76 @@
                 <div class="col-md-3">
                         <div class="panel-default">
                             <div class="panel-heading">
-                                <h4 style="font-weight: bold">Interactions</h4>
+                                <h4 style="font-weight: bold"><a href="#">Interactions</a></h4>
                             </div>
 
                             <div>
                                 <ul>
-                                    <li>Draggable</li>
-                                    <li>Droppable</li>
-                                    <li>Resizeable</li>
-                                    <li>Selectable</li>
-                                    <li>Sortable</li>
+                                    <li><a href="#">Draggable</a></li>
+                                    <li><a href="#">Droppable</a></li>
+                                    <li><a href="#">Resizeable</a></li>
+                                    <li><a href="#">Selectablea</a></li>
+                                    <li><a href="#">Sortable</a></li>
                                 </ul>
                             </div>
                         </div>
 
                     <div class="panel-default">
                         <div class="panel-heading">
-                            <h4 style="font-weight: bold">Widgets</h4>
+                            <h4 style="font-weight: bold"><a href="#">Widgets</a></h4>
                         </div>
 
                         <div>
                             <ul>
-                                <li>Accordion</li>
-                                <li>Autocomplete</li>
-                                <li>Button</li>
-                                <li>Checkboxradio</li>
-                                <li>Controlgroup</li>
-                                <li>Datepicker</li>
-                                <li>Dialog</li>
-                                <li>Menu</li>
-                                <li>Progressbar</li>
-                                <li>Selectmenu</li>
-                                <li>Slider</li>
-                                <li>Spinner</li>
-                                <li>Tabs</li>
-                                <li>Tooltip</li>
+                                <li><a href="#">Accordion</a></li>
+                                <li><a href="#">Autocomplete</a></li>
+                                <li><a href="#">Button</a></li>
+                                <li><a href="#">Checkboxradio</a></li>
+                                <li><a href="#">Controlgroup</a></li>
+                                <li><a href="#">Datepicker</a></li>
+                                <li><a href="#">Dialog</a></li>
+                                <li><a href="#">Menu</a></li>
+                                <li><a href="#">Progressbar</a></li>
+                                <li><a href="#">Selectmenu</a></li>
+                                <li><a href="#">Slider</a></li>
+                                <li><a href="#">Spinner</a></li>
+                                <li><a href="#">Tabs</a></li>
+                                <li><a href="#">Tooltip</a></li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="panel-default">
                         <div class="panel-heading">
-                            <h4 style="font-weight: bold">Effects</h4>
+                            <h4 style="font-weight: bold"><a href="#">Effects</a></h4>
                         </div>
 
                         <div>
                             <ul>
-                                <li>Add Class</li>
-                                <li>Color Animation</li>
-                                <li>Easing</li>
-                                <li>Effect</li>
-                                <li>Hide</li>
-                                <li>Remove Class</li>
-                                <li>Show</li>
-                                <li>Menu</li>
-                                <li>Switch Class</li>
-                                <li>Toggle</li>
-                                <li>Toggle Class</li>
+                                <li><a href="#">Add Class</a></li>
+                                <li><a href="#">Color Animation</a></li>
+                                <li><a href="#">Easing</a></li>
+                                <li><a href="#">Effect</a></li>
+                                <li><a href="#">Hide</a></li>
+                                <li><a href="#">Remove Class</a></li>
+                                <li><a href="#">Show</a></li>
+                                <li><a href="#">Menu</a></li>
+                                <li><a href="#">Switch Class</a></li>
+                                <li><a href="#">Toggle</a></li>
+                                <li><a href="#">Toggle Class</a></li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="panel-default">
                         <div class="panel-heading">
-                            <h4 style="font-weight: bold">Utilities</h4>
+                            <h4 style="font-weight: bold"><a href="#">Utilities</a></h4>
                         </div>
 
                         <div>
                             <ul>
-                                <li>Position</li>
-                                <li>Widget Factory</li>
+                                <li><a href="#">Position</a></li>
+                                <li><a href="#">Widget Factory</a></li>
                             </ul>
                         </div>
                     </div>
@@ -147,11 +153,11 @@
                     <hr class="hr-content"/>
                     <p class="desc">Allow elements to be moved using the mouse</p>
 
-                    <iframe class="demo-frame">
+                    <div class="demo-frame">
                         <div id="draggable" class="ui-widget-content ui-draggable-dandle" style="position: relative">
                             <p>Drag me around</p>
                         </div>
-                    </iframe>
+                    </div>
 
 
 
@@ -170,16 +176,10 @@
                             <li><a href="#">Visual feedback</a></li>
                         </ul>
                     </div>
-
-                    <p>Enable draggable functionality on any DOM element. Move the draggable object by clicking on it with the mouse and dragging it anywhere within the viewport.</p>
+                    <p style="clear: both">Enable draggable functionality on any DOM element. Move the draggable object by clicking on it with the mouse and dragging it anywhere within the viewport.</p>
                 </div>
-
             </div>
-
-
         </div>
-
-
     </div>
     <footer class="clearfix simple">
         <div class="constrain">
@@ -227,5 +227,6 @@
     </footer>
     <!--    end footer-->
     <!-- end container-fluid -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </body>
 </html>

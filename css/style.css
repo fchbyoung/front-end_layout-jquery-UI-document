@@ -22,6 +22,10 @@ body {
     font-style: italic;
 }
 
+.panel-default a {
+    color: #3f3f3f;
+}
+
 .header-right {
     font-size: 20px;
     color: white;
@@ -120,10 +124,13 @@ body {
 .demo-frame {
     width: 70%;
     height: 420px;
+    border: 1px solid #bfbfbf;
+    padding: 1px;
+    float: left;
 }
 
 .demo-list {
-    float: right;
+    float: left;
     width: 25%;
 }
 
@@ -153,14 +160,6 @@ body {
     margin-left: 45px;
     border-bottom: 1px solid #ccc;
 }
-
-iframe {
-    border: 1px solid #bfbfbf;
-    padding: 1px;
-}
-
-
-
 
 
 /*container*/
